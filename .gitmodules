@@ -1,0 +1,4 @@
+[submodule "tools"]
+	path = tools
+	url = git@git.itainnova.es:bigdata/dataspaces/tools.git
+	branch = dev
