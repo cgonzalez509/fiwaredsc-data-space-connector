@@ -1,0 +1,8 @@
+#################################
+# List of files to be frozen. NOTE: This command has to be run at each cloned site to have the files frozen
+# Ubuntu: To freeze this files, the following command has to be executed from cli
+# $ FILE=""; while IFS= read -r file; do if test -f "$file"; then FILE="$FILE \"$file\""; fi done < <(cat .gitfrozen; echo); git update-index --skip-worktree $FILE 
+# To check the frozen files
+# git ls-files -v | grep '^S'
+#################################
+.vscode/settings.json
