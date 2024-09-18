@@ -1,7 +1,7 @@
 #################################
 # List of files to be frozen. NOTE: This command has to be run at each cloned site to have the files frozen
 # Ubuntu: To freeze this files, the following command has to be executed from cli
-# while IFS= read -r file; do if test -f "$file"; then echo "found $file"; git update-index --skip-worktree "$file"; else echo "not found $file"; fi done < <(cat .gitfrozen;echo);
+# while IFS= read -r file; do if test -f "$file"; then git update-index --skip-worktree "$file"; fi done < <(cat .gitfrozen;echo);
 # To check the frozen files
 # git ls-files -v | grep '^S'
 # NOTE: This git command does not work with files containing spaces
