@@ -1,10 +1,10 @@
 # Data space Connectors
 Welcome to this repository in which though several aproaches we will try to ease:
 - The understanding of what a Data Space is
-- The reasons why it could make sense (or not) to embrace the data space philosophy in my organization
-- The importance of the connectors 
+- The reasons why it could make sense (or not) to embrace the data space philosophy in your organization
+- The importance of the connectors in a distributed data space architecture.
 - The components that take part of the Fiware Data Space Connector aproach aligned with the [DSBA Technical Convergence recommendations](https://data-spaces-business-alliance.eu/wp-content/uploads/dlm_uploads/Data-Spaces-Business-Alliance-Technical-Convergence-V2.pdf)
-- Which suite of components to deploy to play different roles into a data space.
+- Which suite of components have to be deployed depending on your role/s within the data space.
 
 ## What is a Data Space
 Multiple definitions can be found describing What is a Data Space is:
